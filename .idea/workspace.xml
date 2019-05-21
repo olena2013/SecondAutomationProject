@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f09916c-3756-4e12-818b-a5172ffeee44" name="Default Changelist" comment="" />
+    <list default="true" id="3f09916c-3756-4e12-818b-a5172ffeee44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/BecomeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/BecomeDriver.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +24,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/CareerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="176">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,19 +50,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="286">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/ApplyJobTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/BecomeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="176">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/JobPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -69,6 +101,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -79,10 +114,16 @@
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riezum/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ridezum/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helper/UserDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/JobsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/CareerPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ridezum/JobPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ridezum/BecomeDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyJobTest.java" />
       </list>
     </option>
   </component>
@@ -98,6 +139,7 @@
     <option name="width" value="3780" />
     <option name="height" value="1920" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,6 +184,14 @@
               <item name="SecondProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SecondProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,6 +214,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,34 +278,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 24m 15s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 28m 06s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 38m 08s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 45m 57s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 48m 54s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_checkTitleTest - 2019.05.19 at 20h 54m 26s.xml">
-      <configuration name="FirstTest.checkTitleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.19 at 21h 18m 07s.xml">
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 19h 23m 19s.xml">
       <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.19 at 21h 19m 39s.xml">
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 19h 29m 27s.xml">
       <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.19 at 21h 24m 48s.xml">
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 19h 44m 28s.xml">
       <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.19 at 21h 32m 20s.xml">
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 13m 42s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 15m 46s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 16m 10s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 17m 08s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 30m 02s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 32m 08s.xml">
+      <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BecomeDriver_becomeDriverTest - 2019.05.20 at 20h 40m 27s.xml">
       <configuration name="BecomeDriver.becomeDriverTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -265,7 +318,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
@@ -273,7 +326,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2890071" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38652483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,6 +340,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.38652483" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -310,32 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -344,20 +401,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="132">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/UserDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/CareerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/JobPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/DriverPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/BecomeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/ApplyJobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

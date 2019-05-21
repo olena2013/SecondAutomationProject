@@ -15,6 +15,12 @@ public class HomePage extends BasePage {
     @FindBy(css = ".main-menu__link")
     private List<WebElement> headerButtons;
 
+    public CareerPage clickCareerButton(){
+        wait.until(ExpectedConditions.elementToBeClickable(headerButtons.get(4)));
+       headerButtons.get(4).click();
+       return new CareerPage(driver);
+    }
+
     public DriverPage clickDriverButton() {
         wait.until(ExpectedConditions.elementToBeClickable(headerButtons.get(2)));
         headerButtons.get(2).click();
@@ -23,4 +29,3 @@ public class HomePage extends BasePage {
     }
 
 }
-

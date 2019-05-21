@@ -1,28 +1,30 @@
 package com.ridezum;
 
-import org.junit.After;
-import org.junit.Assert;
+import helper.UserDriver;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseTest {
     protected WebDriver driver;
+    protected UserDriver userDriver;
 
 
     @Before
     public void setDriver() {
         System.setProperty("webdriver.chrome.driver",
                 "C:/Users/Lena/IdeaProjects/drivers/chromedriver.exe");
+
         driver = new ChromeDriver();
         driver.get("https://ridezum.com/");
         //driver.manage().window().maximize();
+        userDriver =new UserDriver();
+
 
     }
 
-    @After
-    public void close() {
-        driver.quit();
-    }
+//    @After
+//    public void close() {
+//        driver.quit();
+//    }
 }
