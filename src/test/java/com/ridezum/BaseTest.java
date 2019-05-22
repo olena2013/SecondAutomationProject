@@ -8,6 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
     protected WebDriver driver;
     protected UserDriver userDriver;
+    protected CareerPage careerPage;
+    protected JobPage jobPage;
+    protected ApplyForJobPage applyForJobPage;
+    protected ApplicationPage applicationPage;
 
 
     @Before
@@ -19,6 +23,11 @@ public class BaseTest {
         driver.get("https://ridezum.com/");
         //driver.manage().window().maximize();
         userDriver =new UserDriver();
+        careerPage = new CareerPage(driver);
+        jobPage = new JobPage(driver);
+        applyForJobPage = new ApplyForJobPage(driver);
+        applicationPage = new ApplicationPage(driver);
+
 
 
     }

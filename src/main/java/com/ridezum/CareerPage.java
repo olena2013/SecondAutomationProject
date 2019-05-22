@@ -13,9 +13,10 @@ public class CareerPage extends BasePage {
     @FindBy(css = ".m-btn.m-banner__btn")
     private WebElement viewJobButton;
 
-    public void clickJobButton() {
+    public JobPage clickJobButton() {
         wait.until(ExpectedConditions.elementToBeClickable(viewJobButton));
         viewJobButton.click();
+        return new JobPage(driver);
     }
 
 
