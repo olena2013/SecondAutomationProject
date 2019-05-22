@@ -9,12 +9,28 @@ public class ApplyJobTest extends BaseTest {
     protected ApplyForJobPage applyForJobPage;
 
     @Test
-    public void applyJobTest(){
+    public void applyJobTest() {
         homePage = new HomePage(driver);
         careerPage = homePage.clickCareerButton();
+        //Remember previous window
+        String windowHandelBefore = driver.getWindowHandle();
+
+        //Return back to the first window
+        //  driver.switchTo().window(windowHandelBefore);
 
         jobPage = careerPage.clickJobButton();
-        driver.switchTo().window("\"https://jobs.lever.co/ridezum\"");
+        //Switch to new window
+        for (String winHandle : driver.getWindowHandles()) {
+            driver.switchTo().window(winHandle);
+        }
         applyForJobPage = jobPage.clickApplyForJobButton();
-        }
-        }
+        applicationPage = applyForJobPage.clickApplyParticularJobButton();
+
+        applicationPage.inputFullName(userDriver.getFirstName());
+        applicationPage.inputEmail(userDriver.getEmail());
+        applicationPage.inputPhone(userDriver.getPhone());
+        applicationPage.inputCurrentCompany(userDriver.getCompany());
+        applicationPage.inputLinkedInUrl(userDriver.getLinkedIn());
+        applicationPage.inputPortfolioUrl(userDriver.getPortfolio());
+    }
+}
