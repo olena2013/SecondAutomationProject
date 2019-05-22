@@ -1,5 +1,6 @@
 package com.ridezum;
 
+import helper.UserApplicant;
 import helper.UserDriver;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -12,21 +13,25 @@ public class BaseTest {
     protected JobPage jobPage;
     protected ApplyForJobPage applyForJobPage;
     protected ApplicationPage applicationPage;
+    protected UserApplicant userApplicant;
 
 
     @Before
     public void setDriver() {
+//        System.setProperty("webdriver.chrome.driver",
+//                "C:/Users/Lena/IdeaProjects/drivers/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver",
-                "C:/Users/Lena/IdeaProjects/drivers/chromedriver.exe");
+                "C:/Users/Otunyk/IdeaProjects/chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.get("https://ridezum.com/");
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         userDriver =new UserDriver();
         careerPage = new CareerPage(driver);
         jobPage = new JobPage(driver);
         applyForJobPage = new ApplyForJobPage(driver);
         applicationPage = new ApplicationPage(driver);
+        userApplicant = new UserApplicant();
 
 
 

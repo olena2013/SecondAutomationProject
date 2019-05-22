@@ -7,9 +7,7 @@ public class UserDriver {
     private String phone;
     private String zipCode;
     private String refferalCode;
-    private String linkedIn;
-    private String portfolio;
-    private String company;
+
 
     public UserDriver() {
         firstName = "Ivan";
@@ -18,9 +16,8 @@ public class UserDriver {
         phone = "(123)-456-7789";
         zipCode = "44567";
         refferalCode = "847565374";
-        linkedIn = "ivan.ivanov@linkedIn.com";
-        portfolio = "ivan.portfolio";
-        company ="Google";
+
+
     }
 
     public String getFirstName() { return firstName;}
@@ -29,8 +26,6 @@ public class UserDriver {
     public String getPhone() { return phone; }
     public String getZipCode() { return zipCode; }
     public String getRefferalCode() { return refferalCode;}
-    public String getLinkedIn() { return linkedIn; }
-    public String getPortfolio() { return portfolio; }
-    public String getCompany() { return company; }
+
 }
 
