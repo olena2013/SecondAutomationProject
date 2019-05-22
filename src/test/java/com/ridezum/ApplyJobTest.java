@@ -26,11 +26,16 @@ public class ApplyJobTest extends BaseTest {
         applyForJobPage = jobPage.clickApplyForJobButton();
         applicationPage = applyForJobPage.clickApplyParticularJobButton();
 
-        applicationPage.inputFullName(userDriver.getFirstName());
-        applicationPage.inputEmail(userDriver.getEmail());
-        applicationPage.inputPhone(userDriver.getPhone());
-        applicationPage.inputCurrentCompany(userDriver.getCompany());
-        applicationPage.inputLinkedInUrl(userDriver.getLinkedIn());
-        applicationPage.inputPortfolioUrl(userDriver.getPortfolio());
+        applicationPage.inputFullName(userApplicant.getFullName());
+        applicationPage.inputEmail(userApplicant.getEmail());
+        applicationPage.inputPhone(userApplicant.getPhone());
+        applicationPage.inputCurrentCompany(userApplicant.getCompany());
+        applicationPage.inputLinkedInUrl(userApplicant.getLinkedIn());
+        applicationPage.inputPortfolioUrl(userApplicant.getPortfolio());
+        applicationPage.inputAddInfo(userApplicant.getAddInfo());
+        applicationPage.selectGenger();
+        applicationPage.selectRace();
+        applicationPage.selectVeteranStatus();
+        applicationPage.clickSubmitButton();
     }
 }
